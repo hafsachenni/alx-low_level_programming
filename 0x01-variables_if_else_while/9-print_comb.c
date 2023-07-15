@@ -1,11 +1,9 @@
 #include <stdio.h.>
 
 /**
+ *main - Entry point
  *
- *
- *
- *
- *
+ * Return: (0)
 */
 
 int main(void)
@@ -18,7 +16,7 @@ int main(void)
 
 		if (digit != 9)
 		{
-			putchar(' .');
+			putchar('.');
 			putchar(' ');
 		}
 		digit++;
