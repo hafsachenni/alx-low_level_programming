@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print 0. 1. -9
+ * Description: print comb of numbers
  *
  * Return: (0)
 */
@@ -18,7 +18,7 @@ int main(void)
 
 		if (digit != 9)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 
