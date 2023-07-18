@@ -3,8 +3,6 @@
 /**
  * main - Entry point
  *
- * Description: function that prints the alphabet
- *
  * Return: always 0
 */
 
