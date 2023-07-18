@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Entry point.
  *
- * Description: print ten times the alphabet in lowercase
+ * Description: print ten times the alphabet in lowercase.
  *
- * Return:void
+ * Return: Always 0.
  */
 
-void print_alphabet_x10(void)
+void main(void)
 {
 
 char ch;
@@ -23,6 +23,4 @@ for (ch = 'a'; ch <= 'z'; ch++)
 _putchar('\n');
 i++;
 }
-
-
 }
