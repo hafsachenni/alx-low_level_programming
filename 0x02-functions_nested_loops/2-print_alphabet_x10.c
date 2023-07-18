@@ -5,11 +5,12 @@
  *
  * Description: function that prints ten times the alphabet in lowercase
  *
- * Return: always (0)
- */
+ * Return:void
+*/
 
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
+
 char ch;
 int i = 10;
 
@@ -21,5 +22,6 @@ for (ch = 'a'; ch <= 'z'; ch++)
 
 	_putchar('\n');
 i++;
+return (0);
 }
 }
