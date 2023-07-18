@@ -2,9 +2,7 @@
 
 /**
  * main - Entry point
- *
  * Description: function that prints ten times the alphabet in lowercase
- *
  * Return:void
 */
 
