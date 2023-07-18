@@ -2,9 +2,11 @@
 
 /**
  * main - Entry point
+ *
  * Description: print ten times the alphabet in lowercase
+ *
  * Return:void
-*/
+ */
 
 void print_alphabet_x10(void)
 {
