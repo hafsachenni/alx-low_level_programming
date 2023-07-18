@@ -2,11 +2,11 @@
 
 /**
  * main - Entry point
- * Description: function that prints ten times the alphabet in lowercase
- * Return: void
+ * Description: print ten times the alphabet in lowercase
+ * Return:void
 */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 
 char ch;
@@ -21,4 +21,6 @@ for (ch = 'a'; ch <= 'z'; ch++)
 _putchar('\n');
 i++;
 }
+
+
 }
