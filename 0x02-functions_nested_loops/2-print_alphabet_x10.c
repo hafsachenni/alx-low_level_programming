@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: function that prints ten times the alphabet in lowercase
- * Return:void
+ * Return: void
 */
 
 void print_alphabet_x10(void)
