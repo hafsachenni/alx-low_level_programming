@@ -3,12 +3,12 @@
 /**
  * print_last_digit - prints the last digit of the given num
  *
- * @c: the variable that represents the number
+ * @c: is the variable that represents the number
  *
- * Return: the value of last digit
+ * Return: the value of last digit x
  */
 
-int print_last_digit(int)
+int print_last_digit(int c)
 {
 	int x;
 
