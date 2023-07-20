@@ -2,14 +2,13 @@
 
 /**
  * _isupper - checks for uppercase character
- * @c: input character
- * Return: 1 if c is uppercase, otherwise return 0
+ * @c: char to print
+ * Return: 1 if c is uppercase, 0 otherwise
  */
 
 int _isupper(int c)
 {
-	char c;
-	for (c = 'A' ; c <= 'Z' ;c++)
+	for (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
