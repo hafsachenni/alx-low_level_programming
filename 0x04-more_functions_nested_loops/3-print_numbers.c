@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - prints numbers from 0 to 9 using _putchar twice
+ * print_numbers - print 0 - 9
+ *             using putchat twice
  *
- * Return: always 0
- */
+ * Return: always (0)
+*/
 
 void print_numbers(void)
 {
