@@ -3,7 +3,8 @@
 /**
  * mul - multiplies two integers
  *
- * @c: input
+ * @a: first input
+ * @b: second input
  *
  * Return: return result
 */
