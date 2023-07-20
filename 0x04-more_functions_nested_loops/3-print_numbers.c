@@ -3,11 +3,10 @@
 /**
  * print_numbers - print 0 - 9 followed by new line
  *
- * Return: always (0)
+ * Return: Always 0
 */
 
 void print_numbers(void)
-
 {
 	int c;
 
