@@ -3,7 +3,7 @@
 /**
  * main - prints the numbers from 0 to 100
  *
- * Return: Always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	{
 	printf("Fizz ");
 	}
-	else if ((a % 5) == 0 && (a % 3) == 0)
+	else if ((a % 5) == 0 && (a % 3) != 0)
 	{
 	printf("Buzz ");
 	}
