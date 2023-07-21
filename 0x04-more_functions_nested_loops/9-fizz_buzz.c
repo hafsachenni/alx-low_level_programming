@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100, followed by new line
- *        numbers that are multiple of 3 print Fizz
- *        numbers that are multiple of 5 print Buzz
- *        numbers that are multiple of 3 and 5 print FizzBuzz
+ * main - prints the numbers from 0 to 100
+ *
  * Return: Always 0
  */
 
@@ -18,7 +16,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if ((a % 5) == 0 && (a % 3) == 0)
+		else if ((a % 5) == 0 && (a % 3) !== 0)
 		{
 			printf("Buzz ");
 		}
