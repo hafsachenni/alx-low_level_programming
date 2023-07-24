@@ -6,11 +6,11 @@
  * Return: half of input
  */
 
-void puts_half(char*str)
+void puts_half(char *str)
 {
 	int a, n, b;
 
-	b = 0:
+	b = 0;
 
 		for(a = 0; str[a]!= '\0'; a++)
 			b++;
