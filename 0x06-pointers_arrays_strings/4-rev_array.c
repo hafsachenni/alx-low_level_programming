@@ -2,12 +2,12 @@
 
 /**
  * reverse_array - a function that reverses the content of an array of integers
- * @a: num of elements of the array
+ * @a: array
  * @n: num of elements in array
  * Return: void
  */
 
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
 	int i;
 	int t;
