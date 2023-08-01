@@ -3,8 +3,8 @@
 
 /**
  * print_diagsums - function that prints sum of 2 diagonals
- * @a: input
- * @size: input
+ * @a: first diagonal
+ * @size: of diagonal
  * Return: always 0
  */
 
@@ -19,6 +19,5 @@ void print_diagsums(int *a, int size)
 		sum1 += *(a + i * size + i);
 		sum2 += *(a + i * size + (size - i - 1));
 	}
-
 	printf("%d; %d\n", sum1, sum2);
 }
