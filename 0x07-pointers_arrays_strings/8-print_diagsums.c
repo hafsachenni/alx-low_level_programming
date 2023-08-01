@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - function that prints sum of 2 diagonals
+ * print_diagsums - function that prints sum of two diagonals
  * @a: first diagonal
  * @size: of diagonal
- * Return: always 0
+ * Return: always 0.
  */
 
 void print_diagsums(int *a, int size)
