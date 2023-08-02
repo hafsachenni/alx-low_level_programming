@@ -2,14 +2,18 @@
 
 /**
  * _puts_recursion - prints a string followed by new line
- * @*s: input
+ * @s: input
  * Return: always 0
  */
 
 void _puts_recursion(char *s)
 {
-	char s[] = "abcdefghijkl";
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 
-	printf("s is :%s\n", s);
-	return (0);
+		else
+			_putchar("\n");
 }
