@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - function tha concatenates 2 strings
+ * *string_nconcat - function tha concatenates 2 strings
  * @s1: first input string
  * @s2: second one
  * @n: max num of chars
