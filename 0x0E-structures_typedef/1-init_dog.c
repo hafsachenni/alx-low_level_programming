@@ -2,10 +2,10 @@
 
 /**
  * init_dog - initializes a variable of type struct dog
- * @d: dog
+ * @d: pointer to a struct dog
  * @name: dogs name
  * @age: his age
- * @owner: ghis owner
+ * @owner: his owner
  * Return: void
  */
 
@@ -14,8 +14,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	if (d)
 	{
 
-		d->name = name;
+		d->name = strdup(name);
 		d->age = age;
-		d->owner = owner;
+		d->owner = strdup(owner);
 	}
 }
