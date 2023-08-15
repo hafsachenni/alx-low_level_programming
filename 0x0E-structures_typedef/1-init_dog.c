@@ -9,7 +9,7 @@
  * @name: dogs name
  * @age: dogs age
  * @owner: his owner
- * Return: 0
+ * Return: nothing
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
@@ -19,4 +19,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	d->age = age;
 	d->owner = owner
 	d->name = name;
-}	
+}
