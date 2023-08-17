@@ -4,7 +4,7 @@
 /**
  * print_numbers - prints nums
  * @n: num of int
- * @seperator: string to be printed
+ * @separator: string to be printed
  * @...: variable
  */
 
@@ -14,8 +14,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 	int x;
 
-	if (seperator == NULL)
-		seperator = "";
+	if (separator == NULL)
+		separator = "";
 
 	va_start(args, n);
 
@@ -23,10 +23,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		x = va_arg(args, int);
 
-		if (i == n -1)
-			seperator = "";
+		if (i == n - 1)
+			separator = "";
 
-		printf("%d%s", x, seperator);
+		printf("%d%s", x, separator);
 	}
 	printf("\n");
 }
