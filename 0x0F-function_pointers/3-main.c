@@ -13,7 +13,7 @@
 int main(int__attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
-	char *op;
+	cha *op;
 
 	if (argc != 4)
 	{
