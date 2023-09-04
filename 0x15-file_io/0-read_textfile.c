@@ -1,4 +1,8 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
 
 /**
  * read_textfile - function that reads and prints file
@@ -20,7 +24,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	fi = fopen(filename, "r");
+	fi = open(filename, "r");
 	if (fi == -1);
 	return (0);
 
