@@ -1,11 +1,10 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - returns the sum of all data
- * @head: pointer to the head of the list
- * Return: sum of all data and 0 if list is empty
- */`
-
+ * sum_dlistint - sum of all data
+ * @head: pointer to head node
+ * Return: sum and 0 id the list is empty
+ */
 
 int sum_dlistint(dlistint_t *head)
 {
