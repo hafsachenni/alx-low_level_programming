@@ -2,8 +2,9 @@
 
 /**
  * insert_dnodeint_at_index - inserts a new node at a given position
- * @h: pointer to the head of node
+ * @h: pointer to the head of the doubly linked list
  * @n: integer
+ * @idx: position where to insert the node
  * Return: 0 if function fails, otherwise the adress of new node
  */
 
