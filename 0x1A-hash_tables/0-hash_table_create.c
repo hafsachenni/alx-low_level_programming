@@ -18,7 +18,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	if (my_new_table == NULL)
 	{
 		free(my_new_table->array);
-		return NULL;
+		return (NULL);
 	}
 
 	return my_new_table;
