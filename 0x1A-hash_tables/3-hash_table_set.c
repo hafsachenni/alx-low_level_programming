@@ -14,13 +14,13 @@ hash_node_t *create_node(const unsigned char *key, const unsigned char *value)
 	char *new_value;
 
 	// allocating memory
-	char *new_key = strdup(key);
+	new_key = strdup(key);
 	if (!new_key)
 		return (NULL);
 
 
 	// allocating memory
-	char *new_value = strdup(value);
+	new_value = strdup(value);
 	if (!new_value)
 		return (NULL);
 
@@ -78,7 +78,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	tmp = create_node(key, value);
 	if (!tmp)
 		return (0);
-	tmp->next= ht->array[idx];
-	tmp = ht->array[idx]
+	tmp->next = ht->array[idx];
+	ht->array[idx] = tmp;
 	return (1);
 }
