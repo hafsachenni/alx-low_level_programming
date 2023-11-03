@@ -10,8 +10,8 @@
 hash_node_t *create_node(const unsigned char *key, const unsigned char *value)
 {
 	hash_node_t *new_node;
-	char *key;
-	char *value;
+	char *new_key;
+	char *new_value;
 
 	// allocating memory
 	char *new_key = strdup(key);
@@ -53,5 +53,32 @@ hash_node_t *create_node(const unsigned char *key, const unsigned char *value)
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-to be continued...
+	hash_node_t *tmp;
+	char *new_key;
+        char *new_value;
+	int idx;
 
+	if (!ht || !key || !value || !strlen(key) || !ht->array || !ht->size)
+		return (0);
+
+	idx = key_index(key, ht->size);
+	for (tmp = ht->array[idx]; tmp != NULL, tmp = tmp->next)
+	{
+		if (strcmp(tmp->key, key) == 0)
+		{
+			new_value = strdup(value);
+			if (!new_value)
+				return(0);
+			free(tmp->value);
+			tmp->value = new_value;
+			return (1);
+		}
+	}
+
+	tmp = create_node(key, value);
+	if (!tmp)
+		return (0);
+	tmp->next= ht->array[idx];
+	tmp = ht->array[idx]
+	return (1);
+}
