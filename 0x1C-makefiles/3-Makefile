@@ -3,17 +3,18 @@ CFLAGS = -Wall
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm 
+RM = rm -f
 
-all: $(NAME)
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 
 clean:
-	$(RM) -f $(OBJ)  $(NAME)
+	$(RM) *~ $(NAME)
 
 oclean:
 	$(RM) $(OBJ)
 fclean: clean
-	rm - f $(NAME)
+	$(RM) $(OBJ)
 
 re: fclean all
 
