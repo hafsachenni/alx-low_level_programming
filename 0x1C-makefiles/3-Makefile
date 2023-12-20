@@ -8,9 +8,9 @@ RM = rm
 all: $(NAME)
 
 clean:
-	rm -f school
+	$(RM) -f $(OBJ)  $(NAME)
 
-oclean: $(SRC)
+oclean: $(OBJ)
 fclean: clean
 	rm - f $(NAME)
 
